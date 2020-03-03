@@ -1,0 +1,92 @@
+.wrapBox{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	overflow-x: hidden;
+	@include mq(medium){
+		flex-direction: row;
+	}
+}
+
+.wrapBoxes{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	overflow-x: hidden;
+	@include mq(medium){
+		flex-direction: row;
+	}
+}
+
+.box{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;;
+	left:0;
+	width: 95%;
+	min-width: 300px;
+	max-width: 550px;
+	height: 200px;
+	background-color: #fff;
+	padding: 10px 10px 0px;
+	margin: 10px auto;
+	transition: 0.3s linear;
+	@include mq(medium){
+		width:30%;
+		min-width: 0px;
+		max-width:320px;
+		flex-grow: 1;
+		margin: auto 15px;
+		padding: 25px;
+	}
+	&__heading{
+		font-size: 2rem;
+		text-align: center;
+		font-weight: 500;
+	}
+	&__text{
+		margin: 10px 0px;
+		font-size: 1.5rem;
+		text-align: center;
+		line-height: 20px;
+		color: #777;
+	}
+	&__img{
+		display: block;
+		margin:0 auto;
+	}
+}
+
+.topHeading .wrapBoxes .box:nth-last-child(1) > img{
+	display: none;
+}
+
+.topHeading .wrapBoxes .box:nth-last-child(2) > img{
+	display: none;
+}
+
+.bottomHeading .box:nth-last-child(1) > img{
+	display: none;
+}
+
+.bottomHeading .box:nth-last-child(2) > img{
+	display: none;
+	
+}
+
+.btn{
+	display: none;
+    @include mq(medium){
+		display: block;
+		background-color: rgb(33, 83, 152);
+		border:none;
+		outline: none;
+		font-size: 50px;
+		color:rgb(63, 113, 182);
+		cursor: pointer;
+		&:hover{
+			color:rgb(93, 133, 202);
+		}
+	}
+}
