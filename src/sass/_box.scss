@@ -19,11 +19,10 @@
 }
 
 .box{
-	position: relative;
+	position: static;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;;
-	left:0;
 	width: 95%;
 	min-width: 300px;
 	max-width: 550px;
@@ -33,6 +32,8 @@
 	margin: 10px auto;
 	transition: 0.3s linear;
 	@include mq(medium){
+	   position: relative;
+		left:0;
 		width:30%;
 		min-width: 0px;
 		max-width:320px;
