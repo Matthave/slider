@@ -14,4 +14,10 @@ Na podstawie plików package.json pobierze się pełna wersja projektu, wraz z n
 Krok 2:
 Użyć ponizszej komendy w terminalu IDE:
 npm start
+<<<<<<< HEAD
 Projekt zostanie uruchomiany pod adresem http://localhost:3000.
+=======
+Projekt zostanie uruchomiany pod adresem http://localhost:3000.
+
+
+>>>>>>> 20e9aa236112518bdd84620c6a7ecba08c064924
