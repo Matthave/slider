@@ -1,17 +1,23 @@
-### Ten projekt został stowrzony w celach rekrutacyjnych
-## Informacje o projekcie
-Projekt został stworzony z użyciem:
-HTML5, CSS3 pod Kontrolą SASS.SCSS, Java Script, React.js oraz zgodnie z metodologią BEM.
+# sliderHeader
+This application has been created using React.js
 
-## Włączenie projektu
-By włączyc projekt na swoim komputerze, należy:
+## Technologies that have been used:
+React.js
+Java Script
+CSS under SASS/SCSS controll
+BEM Methodology
 
-Krok 1:
-Użyć poniższej komendy w terminalu w IDE:
-npm install 
-Na podstawie plików package.json pobierze się pełna wersja projektu, wraz z node_modules.
+## What is this application?
+Just header with well working slider for any information.
+For practice, I mapped 1 to 1 this project.
 
-Krok 2:
-Użyć ponizszej komendy w terminalu IDE:
+## Download Repo
+If you want to download my code,
+you must clone the repository with the command git clone https://github.com/Matthave/slider
+
+## Launching the application
+After cloning the application you must use the command
+npm install
+
+next:
 npm start
-Projekt zostanie uruchomiany pod adresem http://localhost:3000.
